@@ -1,0 +1,44 @@
+{
+  "$GMProject":"v1",
+  "%Name":"Platformer Template",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":1,
+  "Folders":[],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2024.1400.0.849",
+  },
+  "name":"Platformer Template",
+  "resources":[
+    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
+    {"id":{"name":"oStormGrassTile","path":"objects/oStormGrassTile/oStormGrassTile.yy",},},
+    {"id":{"name":"Village","path":"rooms/Village/Village.yy",},},
+    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"storm_grass_tile","path":"sprites/storm_grass_tile/storm_grass_tile.yy",},},
+    {"id":{"name":"storm_left_edge","path":"sprites/storm_left_edge/storm_left_edge.yy",},},
+    {"id":{"name":"storm_left_slope","path":"sprites/storm_left_slope/storm_left_slope.yy",},},
+    {"id":{"name":"storm_right_edge","path":"sprites/storm_right_edge/storm_right_edge.yy",},},
+    {"id":{"name":"storm_right_slope","path":"sprites/storm_right_slope/storm_right_slope.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"Village","path":"rooms/Village/Village.yy",},},
+  ],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMTextureGroup":"","%Name":"tg_ui","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"tg_ui","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMTextureGroup":"","%Name":"tg_game","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"tg_game","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMTextureGroup":"","%Name":"tg_hud","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"tg_hud","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}
