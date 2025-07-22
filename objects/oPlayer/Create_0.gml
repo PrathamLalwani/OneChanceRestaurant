@@ -1,7 +1,7 @@
 // Moving
-
+controlsSetup()
 moveDir = 0;
-moveSpeed = 2;
+moveSpeed = 3.5;
 xspeed = 0;
 yspeed = 0;
 

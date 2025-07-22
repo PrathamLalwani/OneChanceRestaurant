@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"Platformer Template",
   "AudioGroups":[
-    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -15,14 +15,16 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.0.849",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"Platformer Template",
   "resources":[
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oStormGrassTile","path":"objects/oStormGrassTile/oStormGrassTile.yy",},},
     {"id":{"name":"Village","path":"rooms/Village/Village.yy",},},
-    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"general_functions","path":"scripts/general_functions/general_functions.yy",},},
+    {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},},
+    {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},},
     {"id":{"name":"storm_grass_tile","path":"sprites/storm_grass_tile/storm_grass_tile.yy",},},
     {"id":{"name":"storm_left_edge","path":"sprites/storm_left_edge/storm_left_edge.yy",},},
     {"id":{"name":"storm_left_slope","path":"sprites/storm_left_slope/storm_left_slope.yy",},},

@@ -1,16 +1,39 @@
 //Get inputs
-rightKey = keyboard_check(vk_right);
-leftKey = keyboard_check(vk_left);
-
+getControls()
 
 // X Movement
 	// Direction 
 	moveDir = rightKey-leftKey;
 
 	//Get xspeed 
-	xspeed = moveDir * moveSpeed
+	xspeed = moveDir * moveSpeed;
+	
+	if moveDir && rightKey
+	{
+		sprite_index = sPlayerRun;
+	}
+	else
+	{
+		sprite_index = sPlayerIdle;
+	}
+	
+	//Move
+	x+=xspeed;
 
-	//X collision
+// Y Movement
+	
+	//Direction 
+	yspeed+=grav
+
+	if yspeed >terminalVal {yspeed = terminalVal;};	
+	
+	//Jump
+	if jumpKeyPressed && place_empty(x,y-1, oStormGrassTile)
+	{
+		yspeed = jumpSpeed
+	}	
+	
+	//Y collision
 	var _subPixel = .5;
 	if place_meeting(x,y+yspeed,oStormGrassTile)
 	{
@@ -21,7 +44,5 @@ leftKey = keyboard_check(vk_left);
 		}
 		yspeed =0;
 	}
-
-	//Move
-	x+=xspeed;
-
+	
+	y+=yspeed
